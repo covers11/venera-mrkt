@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Venera MRKT</title>
+
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #111111;
+            color: white;
+            font-family: Arial, sans-serif;
+
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .container {
+            padding: 25px;
+        }
+
+        h1 {
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+
+        .icon {
+            font-size: 65px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 25px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: #999999;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Venera MRKT</h1>
+
+        <div class="icon">🚧</div>
+
+        <h2>В разработке</h2>
+
+        <p>Coming soon...</p>
+    </div>
+
+    <script>
+        const tg = window.Telegram.WebApp;
+
+        tg.ready();
+        tg.expand();
+    </script>
+
+</body>
+</html>
